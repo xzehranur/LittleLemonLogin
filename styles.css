@@ -1,0 +1,23 @@
+body {
+  background-color: #e0e0e2;
+}
+
+main {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form > div {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+input:focus:invalid {
+  color: red;
+  border: red 3px solid;
+}
